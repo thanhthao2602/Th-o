@@ -1,0 +1,447 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+} */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body{
+    font-family: raleway;
+    
+}
+.bgr{
+    
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100vh;
+    background-image:linear-gradient(to right bottom, rgba(255, 255, 255, 0.677), rgba(128, 128, 128, 0.649)),
+    
+    url(https://bootstrapmade.com/demo/templates/MyResume/assets/img/hero-bg.jpg) ;
+   
+   
+    
+}
+.am{
+    position: absolute;
+   top: 30%;
+   left: 350px;
+   line-height: 20px;
+
+}
+h1{
+    font-size: 65px;
+
+}
+.a1{
+    font-size: 40px;
+}
+.sp a{
+    padding: 0 5px;
+    overflow: hidden;
+}
+.sp :nth-child(2){
+    font-size: 50px;
+    overflow: hidden;
+}
+.ic{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.ic i{
+    padding-right: 14px;
+}
+.left{
+    
+    position: fixed;
+    left: 40px;
+    top: 20%;
+}
+.left #ic1,#ic2,#ic3,#ic4,#ic5{
+    font-size: 20px;
+    border: 15px solid ;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    position: relative;
+}
+.left #ic1{
+   border-color: blue;
+   background-color: blue;
+   color: white;
+   position: relative;
+   z-index: 1000000;
+}
+#c1{
+    position: absolute;
+    background-color: blue;
+    top: -35px;
+    left: -15px;
+    height: 34px;
+    width: 100px;
+    border-radius: 30px;
+    padding: 9px 10px;
+    color: white;
+}
+#c2 ,#c3,#c4,#c5{
+    position: absolute;
+    background-color: blue;
+    top: -35px;
+    left: -15px;
+    height: 34px;
+    width: 135px;
+    border-radius: 30px;
+    padding: 9px 10px;
+    color: white;
+    text-align: center;
+}
+
+#ic1 #c1 ,#ic2 #c2 , #ic3 #c3,#ic4 #c4 , #ic5 #c5{
+    display: none;
+}
+
+#ic1:hover #c1{
+    display: block;
+}
+#ic2:hover #c2{
+    display: block;
+}
+#ic3:hover #c3{
+    display: block;
+}
+#ic4:hover #c4{
+    display: block;
+}
+#ic5:hover #c5{
+    display: block;
+}
+.box{
+    background-color: rgb(63, 63, 235);
+    border-right: 239px solid rgb(208, 207, 207);
+    width: 5px;
+    height: 60px;
+    display: inline-block;
+    
+    position: absolute;
+    bottom: 35px;
+    animation-name: chay;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes chay{
+    40%{
+        right: 190px; top: 90px;
+    }
+    100%{
+        right: 230px; top: 90px;
+    }
+}
+.ab{
+    
+    position: relative;
+}
+h1{
+    text-align: center; 
+}
+.p1 ,.p2{
+    text-align: center;
+}
+.hr1{
+   position: absolute;
+   top: 80px;
+   left: 48%;
+   
+}
+.hr2{
+    position: absolute;
+    top: 81.5px;
+    left: 47%; 
+}
+.k{
+    font-size: 30px;
+    color: gray;
+    font-weight: bolder;
+    text-align: center;
+}
+.img{
+    z-index: -10000;
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+.th{
+    font-size: 15px;
+    font-family: raleway;
+}
+.th p{
+    line-height: 27px;
+}
+.fact{
+    position: relative;
+}
+.hr3{
+    position: absolute;
+    top: 80px;
+    left: 48%;
+    
+ }
+ .hr4{
+     position: absolute;
+     top: 81.5px;
+     left: 47%; 
+ }
+ .sml {
+    display: flex;
+   justify-content: center;
+ }
+ .sml div{
+    padding: 50px 40px;
+    text-align: center;
+ }
+ .sml a{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 15px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+ }
+ .sk{
+    position: relative;
+ }
+ .hr5{
+    position: absolute;
+    top: 80px;
+    left: 48%;
+    
+ }
+ .hr6{
+     position: absolute;
+     top: 81.5px;
+     left: 47%; 
+ }
+ .b11 , .b13{
+    width: 430px; 
+    height: 4px;
+ }
+ .b1{
+   
+   
+    background-color: blue;
+
+ }
+ .b12 , .b15{ 
+    width: 400px;
+    height: 4px;
+    border-right: 30px solid rgba(255, 255, 255, 0.808);
+ }
+ .b14{
+    width: 350px;
+    height: 4px;
+    border-right: 80px solid  rgba(255, 255, 255, 0.808);
+ }
+ .b16{
+    width: 215px;
+    height: 4px;
+    border-right: 215px solid  rgba(255, 255, 255, 0.808);
+ }
+.phan{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
+}
+.phan div{
+    margin: 10px 50px;
+}     
+
+.phan a{
+    padding-bottom: 10px;
+    
+}
+.dv{
+    position: relative;
+   
+}
+.hr7{
+    position: absolute;
+    top: 80px;
+    left: 48%;
+    
+ }
+ .hr8{
+     position: absolute;
+     top: 81.5px;
+     left: 47%; 
+ }
+ .bong{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    width: 100%;
+ }
+ .bong div{
+   padding-top: 20px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+ .bong i{
+    font-size: 30px;
+ }
+ .bong a{
+    position: relative;
+ }
+ .bong a .ball1 {
+    position: absolute;
+    left: 0; right: 0;
+    top: -9.7px;
+  
+    color: blue;
+   display: none;
+ }
+ .bong a  .ball2 {
+    position: absolute;
+    left: 0; right: 0; top: -9.7px;
+    color: blue;
+   display: none;
+ }
+ .bong a  .ball3 {
+    position: absolute;
+    left: 0; right: 0; top: -9.7px;
+    color: blue;
+   display: none;
+ }
+ .bong a  .ball4{
+    position: absolute;
+    left: 0; right: 0; top: -9.7px;
+    color: blue;
+   display: none;
+ }
+ .bong a  .ball5 {
+    position: absolute;
+    left: 0; right: 0; top: -9.7px;
+    color: blue;
+   display: none;
+ }
+ .bong a  .ball6 {
+    position: absolute;
+    left: 0; right: 0;
+    top: -9.7px;
+    color: blue;
+   display: none;
+ }
+
+ .bong div:hover .ball1 {
+   display: block;
+ }
+ .bong div:hover .ball2 {
+    display: block;
+  }
+  .bong div:hover .ball3 {
+    display: block;
+  }
+  .bong div:hover .ball4 {
+    display: block;
+  }
+  .bong div:hover .ball5 {
+    display: block;
+  }
+  .bong div:hover .ball6 {
+    display: block;
+  }
+  .bong div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .hr9{
+    position: absolute;
+    top: 80px;
+    left: 48%;
+    
+ }
+ .hr10{
+     position: absolute;
+     top: 81.5px;
+     left: 47%; 
+ }
+.ll{
+    position: relative;
+    margin-left: 130px;
+}
+.ll a{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 15px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+}
+.ll div pre{
+    display: inline-table;
+
+}
+.ll div{
+    margin-bottom: 20px;
+   
+   
+}
+.nhap{
+    position: absolute;
+    left: 550px;
+    top: 120px;
+  
+}
+input{
+    margin-bottom: 20px;
+}
+.ip1 , .ip2{
+    width: 300px;
+    height: 35px;
+   
+}
+.ip3{
+    height: 35px;
+    width:610px ;
+}
+textarea{
+    width: 610px;
+}
+button{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    border-color: blue;
+    border-radius: 15px;
+    margin-left: 270px;
+    cursor: pointer;
+    }
+    footer{
+        text-align: center;
+        background-color: rgb(226, 223, 223);
+    }
+    footer h1{
+        font-size: 50px;
+    }
+    .icn{
+        font-size: 20px;
+       
+    }
+    .icn i{
+       padding: 5px;
+       border: 5px solid blue;
+       border-radius: 50%;
+       background-color: blue;
+       color: white;
+       margin-bottom: 10px;
+    }
+    .dh{
+        border: 2px solid blue;
+        border-radius: 50%;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+       
+        margin-left: 1350px;
+    }
